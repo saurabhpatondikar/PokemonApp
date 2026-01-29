@@ -1,8 +1,8 @@
 {
   "extends": "@react-native/typescript-config",
   "compilerOptions": {
-    "types": ["jest"],
+    "types": ["jest"]
   },
-  "include": ["**/*.ts", "**/*.tsx"],
+  "include": ["**/*.ts", "**/*.tsx", "src/redux/pokemonSlice.js", "src/components/SwipePokemonCard.js", "src/components/Pokemoncard.js", "src/screens/PokemonScreen.js", "src/screens/LikedPokeScreen.js", "src/screens/IntroScreen.js", "src/redux/store.js", "src/network/pokemonApi.js", "src/navigation/types.js", "src/navigation/AppNavigator.js"],
   "exclude": ["**/node_modules", "**/Pods"]
 }
